@@ -12,7 +12,7 @@
 /* =====COLORS===== */
 :root {
     --body-color: #E4E9F7;
-    --sidebar-color: #DDD;
+    --sidebar-color: #fff;
     --primary-color: #695CFE;
     --primary-color-light: #F6F5FF;
     --toggle-color: #DDD;
@@ -78,7 +78,7 @@ body {
 .sidebar li .icon,
 .sidebar li .text {
     color: var(--text-color);
-    transition: var(--tran-03);
+    transition: var(--tran-02);
 }
 
 .sidebar header {
@@ -138,7 +138,7 @@ header .image-text .header-text {
     width: 100%;
     outline: none;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     background: var(--primary-color-light);
 }
 
@@ -147,7 +147,7 @@ header .image-text .header-text {
     display: flex;
     align-items: center;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: var(--tran-04);
     width: 250px;
 
