@@ -1,103 +1,134 @@
+<!-- Coding by CodingLab | www.codinglabweb.com -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- CSS Stylesheet-->
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- Boxicons CSS-->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-
-    <title>Document</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>Dashboard Sidebar Menu</title> 
+</head>
+<body>
     <nav class="sidebar close">
-      <header>
-        <div class="image-text">
-          <span class="image">
-            <img src="gama_logo.png" alt="" />
-          </span>
-      
-          <div class="text header-text">
-            <span class="name">GAMA</span>
-            <span class="accessories">Accessories</span>
-          </div>
-        </div>
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="logo2.png" alt="">
+                </span>
 
-        <i class="bx bx-chevron-right toggle"></i>
-      </header>
-
-      <div class="menu-bar">
-        <div class="menu">
-          <li class="search-box">
-            <i class="bx bx-search icon"></i>
-            <input type="search" placeholder="Search..." />
-          </li>
-            <ul class="menu-links">
-              <li class="nav-link">
-                <a href="#">
-                  <i class='bx bx-home-alt icon'></i>
-                  <span class="text nav-text">Home</span>
-                </a>
-              </li>
-                 <li class="nav-link">
-                <a href="#">
-                  <i class='bx bx-camera icon' ></i>
-                  <span class="text nav-text">Gallery</span>
-                </a>
-              </li>
-                 <li class="nav-link">
-                <a href="#">
-                  <i class='bx bx-user-pin icon' ></i>
-                  <span class="text nav-text">About Us</span>
-                </a>
-              </li>
-                  <li class="nav-link">
-                <a href="#">
-                  <i class='bx bxs-contact icon'></i>
-                  <span class="text nav-text">Contact Us</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <br>
-          <br>
-          <br>
-          <br>
-          <div class="bottom-content">
-            <li class="">
-                <a href="#">
-                    <i class='bx bx-log-out icon' ></i>
-                    <span class="text nav-text">Logout</span>
-            </li>
-
-            <li class="mode">
-               <div class="moon-sun">
-                    <i class='bx bx-moon icon moon' ></i>
-                    <i class='bx bx-sun icon sun' ></i>
-               </div>
-               <span class="mode-text text">Dark Mode</span>
-
-            <div class="toggle-switch">
-                <span class="switch"></span>
+                <div class="text logo-text">
+                    <span class="name">Ga.Ma.</span>
+                    <span class="profession">Accessories</span>
+                </div>
             </div>
 
-            </li>
-          </div>
+            
 
-      </div>
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        
+
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text nav-text">Shop</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Gallery</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-pie-chart-alt icon' ></i>
+                            <span class="text nav-text">About Me</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-heart icon' ></i>
+                            <span class="text nav-text">Contact Us</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
     </nav>
 
-        <section class="home">
-        <div class="text">Dashboard</div>
-    </section>
+    <section class="hero">
+        <img src="gama_logo.png" class="banner-img">
+        <h2>Get yours now!</h2>
+        <p>"Add some flair to your hair and ears with our trendy collection."</p>
+        <p>"Accessorize with ease: earrings and scrunchies for every occasion."</p>
+        <p>"Shop our collection of stylish earrings and scrunchies for the ultimate accessory combo."</p>
+      
+        <br>
+        
+      </section>
+      <section class="features">
+        <h2>Our Features</h2>
+        <ul>
+          <li>Feature 1</li>
+          <li>Feature 2</li>
+          <li>Feature 3</li>
+          <li>Feature 4</li>
+        </ul>
+      </section>
 
     <script src="script.js"></script>
-  </body>
+
+</body>
 </html>
